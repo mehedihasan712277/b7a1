@@ -75,4 +75,4 @@ getInfo({ name: "Hasan", role: "admin" });
 
 Though we can set any value to a variable having type - `any` or `unknown`, `unknown` is a safer version of `any` because `unknown` holds some typescript features. It is good practice to choose `unknown` type over `any`.
 
-Type narrowing simply can be defined as detting limit within type. It can be done using `typeof` keyword or `in` keyword.
+Type narrowing can be defined as detting limit within type. It can be done using `typeof` keyword or `in` keyword.
