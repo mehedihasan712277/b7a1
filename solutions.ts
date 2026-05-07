@@ -21,6 +21,15 @@ const checkType = (param: StringOrNumber): string => {
 const getProperty = <T>(obj: T, prop: keyof T) => obj[prop];
 
 // problem 5
+interface Book {
+    title: string;
+    author: string;
+    publishedYear: number;
+}
+
+const toggleReadStatus = (book: Book) => ({ ...book, isRead: true });
+console.log(toggleReadStatus({ title: "TypeScript Guide", author: "Jane Doe", publishedYear: 2024 }));
+
 // problem 6
 class Person {
     name: string;
