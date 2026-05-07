@@ -28,7 +28,6 @@ interface Book {
 }
 
 const toggleReadStatus = (book: Book) => ({ ...book, isRead: true });
-console.log(toggleReadStatus({ title: "TypeScript Guide", author: "Jane Doe", publishedYear: 2024 }));
 
 // problem 6
 class Person {
